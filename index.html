@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MusaibSharieff Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/musaib.PNG" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Certifications</a></li>
+                    <li class="nav__item"><a href="portfolio-item.html" class="nav__link">Project</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Musaib Sharieff</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Cloud/DevOps Engineer</p>
+            <img src="img/p1.jpeg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>I develop websites using HTML,CSS,Javascript and also do python and shell scripting for the automation in the cloud. </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>DevOps</h3>
+                   
+                    <p><strong> ● Containers & Orchestration:</strong> Docker, Kubernetes, Docker Swarm, AWS ECS.</p>
+                    <p><strong> ● Infrastructure & Configuration Management:</strong> AWS CloudFormation,
+                        Hashicorp Terraform</p>
+                    <p><strong>● Source Code:</strong> GitHub, bitbucket, AWS code commit</p>
+                    <p><strong>● Build & CI/CD:</strong> Jenkins, Bitbucket Pipelines, AWS Code Suite.</p>
+                    <p><strong>● Development & Scripting:</strong> Shell, Python.</p>
+                    <p><strong>● Operating Systems:</strong> Linux and Windows</p>
+                    <p><strong>● Other:</strong> Databases and Monitoring</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Multi Cloud</h3>
+                    <p><strong>●Cloud Providers:</strong> Amazon Web Services (AWS),Azure,GCP </p>
+                    <p><strong>• </strong>Used a range of AWS services such as EC2, S3, ECS, ALB,
+                        AutoScaling, CloudWatch, CloudFront, Route53, VPC.</p>
+                    <p><strong>•</strong> Deployed microservices based applications to the public cloud using
+CI/CD practices with AWS CI/CD pipelines. </p>
+                    <p><strong>•</strong> Hosted applications, configured reverse proxy and SSL certificates
+on web servers(Nginx and Apache)</p>
+                    <p><strong>•</strong> Automated the deployment of infrastructure using tools such as
+CloudFormation and Terraform.</p>
+                     <p><strong>•</strong>Implemented best security practices using AWS IAM, WAF, Cloud
+Trial, AWS Certificate Manager, AWS KMS.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Certifications</a>
+            <pre>   </pre>
+
+            <a href="portfolio-item.html" class="btn">My Project</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Cloud/DevOps Engineer</p>
+           
+           <div class="about-me__body">
+               <p>Musaib Sharieff has 6 months of IT experience working across functions such as development,
+                DevOps, infrastructure. With executing different solutions and troubleshooting to the complex
+                problems is his most favorite thing to do and also work with cross-functional teams.In recent
+                engagements, Musaib has been focused on cloud infrastructure automation, CI/CD pipeline
+                development.Available for freelance projects,feel free to contact me.</p>
+           </div>
+           
+           <img src="img/p7.jpg" alt="" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Certifications</h2>
+            <p class="section__subtitle section__subtitle--work"></p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/p4.JPG" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/p3.JPG" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/p5.JPG" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/p6.JPG" alt="" class="portfolio__img">
+                </a>
+            
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:musaibsharieff@gmail.com" class="footer__link">musaibsharieff@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/musaib_sharieff26/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbSMtZkJblTSPNvsKmtglpTFVDKVKflGXLxrrHJsknsxgXjsmRMqCkQdrTPqtwxtPDgHhV">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/musaib-sharieff-06632697/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/musaibsharieff">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
